@@ -1,0 +1,17 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #3b82f6, // todo: this MUST be a valid 6-digit HEX color in order to make it correctly work
+    ),
+  ),
+  $button-border-radius: (
+    'default': 20px,
+  )
+);
+
+@use "element-plus/theme-chalk/src/base";
+@use "element-plus/theme-chalk/src/button";
+@use "element-plus/theme-chalk/src/form";
+@use "element-plus/theme-chalk/src/input";
+@use "element-plus/theme-chalk/src/card";
+@use "element-plus/theme-chalk/src/loading";
